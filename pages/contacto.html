@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Venta de articulos descartables. Comunicate con nosotros y solicita la info que necesites."
+    />
+    <meta
+      name="keywords"
+      content="descartables, venta, contacto, informacion, soluciones"
+    />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>AMC - Contacto</title>
+  </head>
+  <body class="flex">
+    <header class="header">
+      <div class="header__contenedor">
+        <a class="header__link" href="../index.html"
+          ><img class="header__logo" src="../img/logo_size.jpg" alt="logo"
+        /></a>
+        <h1 class="header__titulo">Artículos descartables</h1>
+      </div>
+    </header>
+
+    <nav class="topNav">
+      <ul class="topNav__menu">
+        <li class="topNav__elemento">
+          <a class="topNav__link" href="../index.html">Inicio</a>
+        </li>
+        <li class="topNav__elemento">
+          <a class="topNav__link" href="./productos.html">Productos</a>
+          <ul class="topNav__subMenu">
+            <li class="topNav__subElemento">
+              <a class="topNav__link" href="./productos.html">Cajas</a>
+            </li>
+            <li class="topNav__subElemento">
+              <a class="topNav__link" href="./productos.html">Sobres</a>
+            </li>
+            <li class="topNav__subElemento">
+              <a class="topNav__link" href="./productos.html">Bolsas</a>
+            </li>
+          </ul>
+        </li>
+        <li class="topNav__elemento">
+          <a class="topNav__link" href="./clientes.html">Clientes</a>
+        </li>
+        <li class="topNav__elemento">
+          <a class="topNav__link" href="./informacion.html">Información</a>
+        </li>
+        <li class="topNav__elemento">
+          <a class="topNav__link" href="./ecologia.html">Ecología</a>
+        </li>
+        <li class="topNav__elemento">
+          <a class="topNav__link topNav__link--activo" href="./contacto.html"
+            >Contacto</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Cuerpo principal de la página -->
+
+    <main class="flex">
+      <section class="contacto flex">
+        <h2>Comunicate con nosotros</h2>
+        <div class="container-fluid">
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" />
+            </div>
+  
+            <div class="mb-3">
+              <div class="mb-3">
+              <label for="nombre" class="form-label">Apellido:</label>
+              <input type="text" class="form-control" id="nombre" />
+            </div>
+  
+            <div class="mb-3">
+              <label for="mail" class="form-label">Dirección email:</label>
+              <input type="email" class="form-control" id="mail" aria-describedby="emailHelp" placeholder="ejemplo@servidordemail.com"/>
+            </div>
+  
+            <div class="form-floating">
+              <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                <option selected>Como realizo un pedido</option>
+                <option value="1">Envíos</option>
+                <option value="2">Horarios de atención</option>
+                <option value="3">Facilidades de pago</option>
+                <option value="4">Compras mayoristas</option>
+                <option value="5">Necesito un producto</option>
+                <option value="6">Otras consultas</option>
+              </select>
+              <label for="floatingSelect">Tipo de consulta</label>
+            </div>
+  
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                Soy cliente
+              </label>
+            </div>
+  
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Dejanos tu consulta" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Consulta</label>
+            </div>
+  
+            <button class="btn btn-primary mt-3" type="submit">Enviar</button>
+            <button class="btn btn-primary mt-3 ms-2" type="reset">Limpiar</button>
+  
+          </form>
+        </div>
+
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="pieDePagina">
+      <div class="pieDePagina__bloqueInformativo">
+        <!-- Info de contacto -->
+        <h2 class="pieDePagina__titulo">Información útil</h2>
+        <ul class="pieDePagina__lista">
+          <li class="pieDePagina__elemento">
+            <span
+              class="iconify"
+              data-icon="ant-design:whats-app-outlined"
+              data-inline="false"
+              data-width="30"
+              data-height="30"
+            ></span>
+            Whats App : + 54 11 2223 2235
+          </li>
+          <li class="pieDePagina__elemento">
+            <span
+              class="iconify"
+              data-icon="fluent:mail-24-regular"
+              data-inline="false"
+              data-width="30"
+              data-height="30"
+            ></span>
+            E-mail : amcdescartables@gmail.com
+          </li>
+        </ul>
+      </div>
+      <div class="pieDePagina__bloqueInformativo">
+        <!-- Redes sociales! -->
+        <h2 class="pieDePagina__titulo">Seguinos en nuestras redes</h2>
+        <div class="pieDePagina__contenedorRedes">
+          <a
+            class="pieDePagina__link"
+            href="https://www.instagram.com/amcdescartables/"
+            ><span
+              class="iconify"
+              data-icon="cib:instagram"
+              data-inline="false"
+              data-width="77"
+              data-height="50"
+            ></span
+          ></a>
+
+          <a class="pieDePagina__link" href="">
+            <span
+              class="iconify"
+              data-icon="feather:twitter"
+              data-inline="false"
+              data-width="50"
+              data-height="50"
+            ></span
+          ></a>
+
+          <a class="pieDePagina__link" href="">
+            <span
+              class="iconify"
+              data-icon="cib:facebook"
+              data-inline="false"
+              data-width="50"
+              data-height="50"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

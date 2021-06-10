@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Venta de articulos descartables, al mejor precio, y a tu alcance"
+    />
+    <meta
+      name="keywords"
+      content="descartables, venta, envios, cajas, bolsas"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <title>AMC - Articulos descartables</title>
+  </head>
+
+  <body class="flex">
+    <!-- Header -->
+    <header class="header">
+      <div class="header__contenedor">
+        <a class="header__link" href="./index.html"
+          ><img class="header__logo" src="./img/logo_size.jpg" alt="logo"
+        /></a>
+        <h1 class="header__titulo">Artículos descartables</h1>
+      </div>
+    </header>
+
+    <nav class="topNav">
+      <ul class="topNav__menu">
+        <li class="topNav__elemento">
+          <a class="topNav__link topNav__link--activo" href="./index.html"
+            >Inicio</a
+          >
+        </li>
+        <li class="topNav__elemento">
+          <a class="topNav__link" href="./pages/productos.html">Productos</a>
+          <ul class="topNav__subMenu">
+            <li class="topNav__subElemento">
+              <a class="topNav__link" href="./pages/productos.html">Cajas</a>
+            </li>
+            <li class="topNav__subElemento">
+              <a class="topNav__link" href="./pages/productos.html">Sobres</a>
+            </li>
+            <li class="topNav__subElemento">
+              <a class="topNav__link" href="./pages/productos.html">Bolsas</a>
+            </li>
+          </ul>
+        </li>
+        <li class="topNav__elemento">
+          <a class="topNav__link" href="./pages/clientes.html">Clientes</a>
+        </li>
+        <li class="topNav__elemento">
+          <a class="topNav__link" href="./pages/informacion.html"
+            >Información</a
+          >
+        </li>
+        <li class="topNav__elemento">
+          <a class="topNav__link" href="./pages/ecologia.html">Ecología</a>
+        </li>
+        <li class="topNav__elemento">
+          <a class="topNav__link" href="./pages/contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Cuerpo principal de la página -->
+
+    <main>
+      <section class="catProductos">
+        <div class="container">
+          <div
+            id="carouselExampleDark"
+            class="carousel carousel-dark slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img
+                  src="./img/cajas.png"
+                  class="d-block w-100"
+                  alt="cajas de carton"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Encontrá lo que necesitas!</h5>
+                  <p>Encontra lo que buscas fácil, rápido y a tu alcance!</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/envíos.png" class="d-block w-100" alt="envios" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Envíos a domicilio gratis!</h5>
+                  <p>Te acercamos nuestros productos a donde estes!</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img
+                  src="./img/pagos.png"
+                  class="d-block w-100"
+                  alt="medios de pago"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Facilidades de pago</h5>
+                  <p>Incorporamos medios de pago para tu comodidad!</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- La idea de esto es tener un link rápido a los productos más vendidos, 
+        para que la gente los tenga a mano-->
+
+      <section class="productosDestacados">
+        <h2 class="productosDestacados__titulo">Productos destacados</h2>
+        <div class="productosDestacados__contenedorCards">
+          <div
+            class="card text-center productosDestacados__card"
+            style="width: 18rem"
+          >
+            <img
+              src="./img/productos/cajas_de_pizza.png"
+              class="card-img-top productosDestacados__img"
+              alt="Cajas de pizza"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cajas de pizzas</h5>
+              <p class="card-text">Info de las cajas de pizza</p>
+              <a href="#" class="btn btn-primary btn-lg"
+                >Comprar&nbsp;
+                <span
+                  class="iconify"
+                  data-icon="bi:cart"
+                  data-inline="false"
+                ></span
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="card text-center productosDestacados__card"
+            style="width: 18rem"
+          >
+            <img
+              src="./img/productos/porta_masitas.png"
+              class="card-img-top productosDestacados__img"
+              alt="Caja para masitas"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Porta masitas</h5>
+              <p class="card-text">info de los porta masitas</p>
+              <a href="#" class="btn btn-primary btn-lg"
+                >Comprar&nbsp;
+                <span
+                  class="iconify"
+                  data-icon="bi:cart"
+                  data-inline="false"
+                ></span
+              ></a>
+            </div>
+          </div>
+
+          <div
+            class="card text-center productosDestacados__card"
+            style="width: 18rem"
+          >
+            <img
+              src="./img/productos/sobres_papel_madera.png"
+              class="card-img-top productosDestacados__img"
+              alt="Sobres de papel madera"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sobres de papel</h5>
+              <p class="card-text">info de los sobres de papel</p>
+              <a href="#" class="btn btn-primary btn-lg"
+                >Comprar&nbsp;
+                <span
+                  class="iconify"
+                  data-icon="bi:cart"
+                  data-inline="false"
+                ></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="pieDePagina">
+      <div class="pieDePagina__bloqueInformativo">
+        <!-- Info de contacto -->
+        <h2 class="pieDePagina__titulo">Información útil</h2>
+        <ul class="pieDePagina__lista">
+          <li class="pieDePagina__elemento">
+            <span
+              class="iconify"
+              data-icon="ant-design:whats-app-outlined"
+              data-inline="false"
+              data-width="30"
+              data-height="30"
+            ></span>
+            Whats App : + 54 11 2223 2235
+          </li>
+          <li class="pieDePagina__elemento">
+            <span
+              class="iconify"
+              data-icon="fluent:mail-24-regular"
+              data-inline="false"
+              data-width="30"
+              data-height="30"
+            ></span>
+            E-mail : amcdescartables@gmail.com
+          </li>
+        </ul>
+      </div>
+      <div class="pieDePagina__bloqueInformativo">
+        <!-- Redes sociales! -->
+        <h2 class="pieDePagina__titulo">Seguinos en nuestras redes</h2>
+        <div class="pieDePagina__contenedorRedes">
+          <a
+            class="pieDePagina__link"
+            href="https://www.instagram.com/amcdescartables/"
+            ><span
+              class="iconify"
+              data-icon="cib:instagram"
+              data-inline="false"
+              data-width="77"
+              data-height="50"
+            ></span
+          ></a>
+
+          <a class="pieDePagina__link" href="">
+            <span
+              class="iconify"
+              data-icon="feather:twitter"
+              data-inline="false"
+              data-width="50"
+              data-height="50"
+            ></span
+          ></a>
+
+          <a class="pieDePagina__link" href="">
+            <span
+              class="iconify"
+              data-icon="cib:facebook"
+              data-inline="false"
+              data-width="50"
+              data-height="50"
+            ></span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
