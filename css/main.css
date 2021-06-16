@@ -7741,7 +7741,8 @@ A {
   color: #44A38D; }
 
 .productosDestacados__link {
-  color: #fff !important; }
+  color: #fff !important;
+  font-weight: bold; }
   .productosDestacados__link:active {
     color: #fff; }
   .productosDestacados__link:hover {
@@ -7915,7 +7916,7 @@ A {
   .contenedorSeccionProductos {
     flex-direction: column;
     justify-content: space-around;
-    margin-top: 30px;
+    margin: 30px 30px;
     align-items: center; }
   .categorias {
     display: none; }
