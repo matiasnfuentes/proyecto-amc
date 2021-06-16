@@ -79,6 +79,12 @@ A
     &__titulo
         font-weight: bold
         color: $verde-oscuro
+    &__link
+        color: #fff!important
+        &:active
+            color: #fff
+        &:hover
+            color: #fff
 
 /* Clientes.html*/
 .clientes
@@ -171,7 +177,7 @@ A
     &__img
         margin-right: 3vw
         height: 10vh
-        width: 20vw
+        width: 15vw
 
 /*Información.html*/
 
@@ -205,8 +211,16 @@ A
 
 @media only screen and (max-width: 768px)
 
-    .topNav__link
-        min-width: 90px
+    .topNav
+        margin: 20px 0px
+        &__menu
+            min-width: 50%
+            display: flex
+            flex-wrap: wrap
+            justify-content: center
+
+        &__link
+            min-width: 90px
 
     .catProductos img
         margin-top: 25px
@@ -233,6 +247,7 @@ A
         text-align: center
 
     .topNav
+        margin: 20px 20px
         &__menu
             min-width: 50%
             display: flex
@@ -241,6 +256,10 @@ A
 
         &__link
             min-width: 120px
+
+        &__elemento
+            &:hover > .topNav__subMenu
+                display: none
 
     .productosDestacados
         &__contenedorCards
@@ -276,6 +295,16 @@ A
         align-items: center
         margin-bottom: 5vh
 
+    .dropdownDescription
+        color: #fff
+        font-weight: bold
+        &:active
+            color: #fff
+            font-weight: bold
+        &:hover
+            color: #fff
+            font-weight: bold
+
     .informacionReciclaje__video
         width: 100%
         height: 25vh
@@ -283,12 +312,22 @@ A
     .linksRelevantes
         &__lista
             flex-direction: column
+            align-content: center
             margin-block-start: 0px
             margin-block-end: 0px
             margin-inline-start: 0px
             margin-inline-end: 0px
             padding-inline-start: 0px
             list-style-position: inside
+
+        &__lista
+            margin: 25px 0px
+            align-items: center
+
+        &__item
+            margin: 5px 0px
+            display: inline-block
+            width: 50%
 
         &__img
             height: 10vh

@@ -7740,6 +7740,13 @@ A {
   font-weight: bold;
   color: #44A38D; }
 
+.productosDestacados__link {
+  color: #fff !important; }
+  .productosDestacados__link:active {
+    color: #fff; }
+  .productosDestacados__link:hover {
+    color: #fff; }
+
 /* Clientes.html*/
 .clientes__grilla {
   display: grid;
@@ -7823,7 +7830,7 @@ A {
 .linksRelevantes__img {
   margin-right: 3vw;
   height: 10vh;
-  width: 20vw; }
+  width: 15vw; }
 
 /*Información.html*/
 .informacion {
@@ -7852,8 +7859,15 @@ A {
 
 /*Media querys*/
 @media only screen and (max-width: 768px) {
-  .topNav__link {
-    min-width: 90px; }
+  .topNav {
+    margin: 20px 0px; }
+    .topNav__menu {
+      min-width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+    .topNav__link {
+      min-width: 90px; }
   .catProductos img {
     margin-top: 25px;
     padding: 5vw 8vw 15vw 8vw;
@@ -7873,13 +7887,17 @@ A {
 @media only screen and (max-width: 576px) {
   .header__titulo {
     text-align: center; }
-  .topNav__menu {
-    min-width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; }
-  .topNav__link {
-    min-width: 120px; }
+  .topNav {
+    margin: 20px 20px; }
+    .topNav__menu {
+      min-width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; }
+    .topNav__link {
+      min-width: 120px; }
+    .topNav__elemento:hover > .topNav__subMenu {
+      display: none; }
   .productosDestacados__contenedorCards {
     display: flex;
     flex-direction: column;
@@ -7906,17 +7924,34 @@ A {
     flex-direction: column;
     align-items: center;
     margin-bottom: 5vh; }
+  .dropdownDescription {
+    color: #fff;
+    font-weight: bold; }
+    .dropdownDescription:active {
+      color: #fff;
+      font-weight: bold; }
+    .dropdownDescription:hover {
+      color: #fff;
+      font-weight: bold; }
   .informacionReciclaje__video {
     width: 100%;
     height: 25vh; }
   .linksRelevantes__lista {
     flex-direction: column;
+    align-content: center;
     margin-block-start: 0px;
     margin-block-end: 0px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 0px;
     list-style-position: inside; }
+  .linksRelevantes__lista {
+    margin: 25px 0px;
+    align-items: center; }
+  .linksRelevantes__item {
+    margin: 5px 0px;
+    display: inline-block;
+    width: 50%; }
   .linksRelevantes__img {
     height: 10vh;
     width: 100%; }
