@@ -7883,7 +7883,10 @@ A {
   .contenedorSeccionProductos {
     margin: 0px;
     margin-top: 30px;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+  .linksRelevantes__img {
+    height: 10vh;
+    width: 20vw; } }
 
 @media only screen and (max-width: 576px) {
   .header__titulo {
@@ -7952,7 +7955,7 @@ A {
   .linksRelevantes__item {
     margin: 5px 0px;
     display: inline-block;
-    width: 50%; }
+    width: 100%; }
   .linksRelevantes__img {
     height: 10vh;
     width: 100%; }
