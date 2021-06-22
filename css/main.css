@@ -7775,8 +7775,9 @@ A {
   min-width: 300px; }
 
 .futurosClientes {
-  margin-top: 25px; }
+  margin-top: 30px; }
   .futurosClientes__texto {
+    font-size: 1.5rem;
     margin: 25px; }
 
 /* Productos.html */
@@ -7849,6 +7850,11 @@ A {
     margin-bottom: 15px;
     text-align: left; }
   .informacion h3, .informacion .h3 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+    text-align: left; }
+  .informacion h4, .informacion .h4 {
+    font-size: 1.4em;
     margin-bottom: 15px;
     text-align: left; }
 
@@ -7966,6 +7972,8 @@ A {
     width: 100%; }
   .informacion {
     width: 90%; }
+    .informacion p {
+      text-align: justify; }
   .contacto {
     width: 100%; }
   .pieDePagina__lista {
