@@ -7651,37 +7651,37 @@ textarea.form-control-lg {
     animation-fill-mode: both; }
 
 h1, .h1 {
-  font-size: 3em;
+  font-size: 3rem;
   color: #44A38D;
   text-align: center;
   margin-top: 15px; }
 
 h2, .h2 {
-  font-size: 2.4em;
+  font-size: 2.4rem;
   color: #44A38D;
   text-align: center;
   margin-top: 15px; }
 
 h3, .h3 {
-  font-size: 2.25em;
+  font-size: 2.25rem;
   color: #44A38D;
   text-align: center;
   margin-top: 15px; }
 
 h4, .h4 {
-  font-size: 2.1em;
+  font-size: 2.1rem;
   color: #44A38D;
   text-align: center;
   margin-top: 15px; }
 
 h5, .h5 {
-  font-size: 1.95em;
+  font-size: 1.65rem;
   color: #44A38D;
   text-align: center;
   margin-top: 15px; }
 
 h6, .h6 {
-  font-size: 1.8em;
+  font-size: 1.5rem;
   color: #44A38D;
   text-align: center;
   margin-top: 15px; }
@@ -7780,6 +7780,9 @@ A {
     margin: 25px; }
 
 /* Productos.html */
+.card {
+  min-height: 400px; }
+
 .contenedorSeccionProductos {
   display: flex;
   flex-direction: row;
@@ -7788,7 +7791,9 @@ A {
 
 .contenedorSeccionProductos img {
   height: 20vh;
-  padding: 15px; }
+  max-width: 350px;
+  padding: 10px;
+  align-self: center; }
 
 .categorias {
   align-self: flex-start;

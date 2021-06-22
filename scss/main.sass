@@ -8,13 +8,13 @@
 @import "footer"
 @import "topNav"
 
-$font-size-base: 3em
+$font-size-base: 3rem
 $font-size: (h1: $font-size-base * 1,
 h2: $font-size-base * 0.8,
 h3: $font-size-base * 0.75,
 h4: $font-size-base * 0.7,
-h5: $font-size-base * 0.65,
-h6: $font-size-base * 0.60)
+h5: $font-size-base * 0.55,
+h6: $font-size-base * 0.50)
 
 @each $header, $size in $font-size
     #{$header}
@@ -123,6 +123,9 @@ A
 
 /* Productos.html */
 
+.card
+    min-height: 400px
+
 .contenedorSeccionProductos
     display: flex
     flex-direction: row
@@ -131,7 +134,9 @@ A
 
 .contenedorSeccionProductos img
     height: 20vh
-    padding: 15px
+    max-width: 350px
+    padding: 10px
+    align-self: center
 
 .categorias
     align-self: flex-start

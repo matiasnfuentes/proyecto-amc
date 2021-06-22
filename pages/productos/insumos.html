@@ -15,16 +15,16 @@
       content="descartables, venta, cajas, bolsas, film, carton, plastico"
     />
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <link rel="stylesheet" href="../css/normalize.css" />
-    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../../css/normalize.css" />
+    <link rel="stylesheet" href="../../css/main.css" />
     <title>AMC - Productos</title>
   </head>
 
   <body class="flex">
     <header class="header">
       <div class="header__contenedor">
-        <a class="header__link" href="../index.html"
-          ><img class="header__logo" src="../img/logo_size.webp" alt="logo"
+        <a class="header__link" href="../../index.html"
+          ><img class="header__logo" src="../../img/logo_size.webp" alt="logo"
         /></a>
         <h1 class="header__titulo">Artículos descartables</h1>
       </div>
@@ -33,35 +33,36 @@
     <nav class="topNav">
       <ul class="topNav__menu">
         <li class="topNav__elemento">
-          <a class="topNav__link" href="../index.html">Inicio</a>
+          <a class="topNav__link" href="../../index.html">Inicio</a>
         </li>
         <li class="topNav__elemento">
-          <a class="topNav__link topNav__link--activo" href="./productos.html"
-            >Productos</a
-          >
+          <a class="topNav__link topNav__link--activo" href="./boxes.html">Productos</a>
           <ul class="topNav__subMenu">
             <li class="topNav__subElemento">
-              <a class="topNav__link" href="./productos.html">Cajas</a>
+              <a class="topNav__link" href="./boxes.html">Boxes</a>
             </li>
             <li class="topNav__subElemento">
-              <a class="topNav__link" href="./productos.html">Sobres</a>
+              <a class="topNav__link" href="./comidas.html">Comidas</a>
             </li>
             <li class="topNav__subElemento">
-              <a class="topNav__link" href="./productos.html">Bolsas</a>
+              <a class="topNav__link" href="./insumos.html">Insumos</a>
+            </li>
+            <li class="topNav__subElemento">
+              <a class="topNav__link" href="./limpieza.html">Limpieza</a>
             </li>
           </ul>
         </li>
         <li class="topNav__elemento">
-          <a class="topNav__link" href="./clientes.html">Clientes</a>
+          <a class="topNav__link" href="../clientes.html">Clientes</a>
         </li>
         <li class="topNav__elemento">
-          <a class="topNav__link" href="./informacion.html">Información</a>
+          <a class="topNav__link" href="../informacion.html">Información</a>
         </li>
         <li class="topNav__elemento">
-          <a class="topNav__link" href="./ecologia.html">Ecología</a>
+          <a class="topNav__link" href="../ecologia.html">Ecología</a>
         </li>
         <li class="topNav__elemento">
-          <a class="topNav__link" href="./contacto.html">Contacto</a>
+          <a class="topNav__link" href="../contacto.html">Contacto</a>
         </li>
       </ul>
     </nav>
@@ -72,10 +73,10 @@
       <div class="contenedorSeccionProductos">
         <!-- Barra navegable lateral -->
         <nav class="categorias">
-          <a href="">Bolsas</a>
-          <a href="">Cajas</a>
-          <a href="">Descartables</a>
-          <a href="">Envases</a>
+          <a href="./boxes.html">Boxes</a>
+          <a href="./comidas.html">Comidas</a>
+          <a href="./insumos.html">Insumos</a>
+          <a href="./limpieza.html">Limpieza</a>
         </nav>
 
         <!-- Dropdown para mobile -->
@@ -100,80 +101,27 @@
             </a>
 
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Envases</a></li>
-              <li><a class="dropdown-item" href="#">Descartables</a></li>
-              <li><a class="dropdown-item" href="#">Cajas</a></li>
-              <li><a class="dropdown-item" href="#">Bolsas</a></li>
+              <li><a href="./boxes.html">Boxes</a></li>
+              <li><a class="dropdown-item" href="./comidas.html">Comidas</a></li>
+              <li><a class="dropdown-item" href="./insumos.html">Insumos</a></li>
+              <li><a class="dropdown-item" href="./limpieza.html">Limpieza</a></li>
             </ul>
           </div>
         </div>
 
-        <div class="container">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="container-fluid">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4 g-4">
+
             <div class="col">
               <div class="card h-100">
                 <img
-                  src="../img/bolsaspapel.webp"
+                  src="../../img/productos/Insumos/sobres_papel_madera.webp"
                   class="card-img-top"
-                  alt="bolsas de papel madera"
+                  alt="Sobres papel madera"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img
-                  src="../img/cajas.webp"
-                  class="card-img-top"
-                  alt="Cajas de carton"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img
-                  src="../img/productos/servilletas_elegante.webp"
-                  class="card-img-top"
-                  alt="Servilletas"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img
-                  src="../img/productos/vasosblancos.webp"
-                  class="card-img-top"
-                  alt="vasos blancos descartables"
-                />
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
+                  <h5 class="card-title mb-4">Sobres papel madera</h5>
+                  <p class="card-text"><strong>Medidas:</strong> 17,5 x 20 - 9 x 19 - 11,5 x 25,5 - 12,5 x 29,5 - 13,5 x 33 - 14,5 x 33 - 19 x 35 - 19 x 46 - 19 x 49,5</p>
                 </div>
               </div>
             </div>
@@ -181,16 +129,14 @@
             <div class="col">
               <div class="card h-100">
                 <img
-                  src="../img/productos/box2.webp"
+                  src="../../img/productos/Insumos/bolsas_para_hornear.webp"
                   class="card-img-top"
-                  alt="box para regalos transparente"
+                  alt="Bolsas para hornear"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content.
-                  </p>
+                  <h5 class="card-title mb-4">Bolsas para hornear</h5>
+                  <p class="card-text"><strong>Presentación:</strong> 10U.</p>
+                  <p class="card-text"><strong>Medidas:</strong> 30x45</p>
                 </div>
               </div>
             </div>
@@ -198,16 +144,13 @@
             <div class="col">
               <div class="card h-100">
                 <img
-                  src="../img/productos/box_love.webp"
+                  src="../../img/productos/Insumos/bolsas_plasticas.webp"
                   class="card-img-top"
-                  alt="box para regalos en forma de corazones"
+                  alt="Bolsas de arranque"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content.
-                  </p>
+                  <h5 class="card-title mb-4">Bolsas de arranque</h5>
+                  <p class="card-text"><strong>Medidas:</strong> 15x20 - 20x25 - 25x35 - 30x40 - 35x45 - 40x50 - 50x70 - 60x90</p>
                 </div>
               </div>
             </div>
@@ -215,16 +158,13 @@
             <div class="col">
               <div class="card h-100">
                 <img
-                  src="../img/productos/cinta_scotch_rollo.webp"
+                  src="../../img/productos/Insumos/cinta_scotch_rollo.webp"
                   class="card-img-top"
                   alt="Cinta scotch"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content.
-                  </p>
+                  <h5 class="card-title mb-4">Cinta scotch</h5>
+                  <p class="card-text"><strong>Medidas:</strong> 48 x 100mts - 48 x 50 mts - 24 x 50 x 2 - 48 x 50 (marrón)</p>
                 </div>
               </div>
             </div>
@@ -232,16 +172,13 @@
             <div class="col">
               <div class="card h-100">
                 <img
-                  src="../img/productos/pandulcera.webp"
+                  src="../../img/productos/Insumos/el_cozzito_de_la_pizza.webp"
                   class="card-img-top"
-                  alt="Pandulcera"
+                  alt="Separador para pizza"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content.
-                  </p>
+                  <h5 class="card-title mb-4">Separador para pizza</h5>
+                  <p class="card-text"><strong>Presentación:</strong> 1 KG</p>
                 </div>
               </div>
             </div>
@@ -249,16 +186,13 @@
             <div class="col">
               <div class="card h-100">
                 <img
-                  src="../img/productos/papel_aluminio.webp"
+                  src="../../img/productos/Insumos/escarbadientes.webp"
                   class="card-img-top"
-                  alt="Papel Aluminio"
+                  alt="Escarbadientes"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content.
-                  </p>
+                  <h5 class="card-title mb-4">Escarbadientes</h5>
+                  <p class="card-text"><strong>Presentación:</strong> Garbo ensobrado x 1 caja de 1000U - Garbo ensobrado x 1 caja de 800 U</p>
                 </div>
               </div>
             </div>
@@ -266,19 +200,83 @@
             <div class="col">
               <div class="card h-100">
                 <img
-                  src="../img/productos/recipiente_papas_fritas.webp"
+                  src="../../img/productos/Insumos/guantes.webp"
                   class="card-img-top"
-                  alt="Recipiente papas fritas"
+                  alt="Guates de latex"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content.
-                  </p>
+                  <h5 class="card-title mb-4">Guates de latex</h5>
+                  <p class="card-text"><strong>Presentación:</strong> Consultar!</p>
                 </div>
               </div>
             </div>
+
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../img/productos/Insumos/image.webp"
+                  class="card-img-top"
+                  alt="Bolsas de residuo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Bolsas de residuo</h5>
+                  <p class="card-text"><strong>Presentación:</strong> 50U</p>
+                  <p class="card-text"><strong>Medidas:</strong> 80x110 - 90x120</p>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../img/productos/Insumos/papel_aluminio.webp"
+                  class="card-img-top"
+                  alt="Papel aluminio"
+                />
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Papel aluminio</h5>
+                  <p class="card-text"><strong>Presentación:</strong> 1 KG</p>
+                  <p class="card-text"><strong>Medidas:</strong> 38 cm x 50 M</p>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../img/productos/Insumos/papel_film.webp"
+                  class="card-img-top"
+                  alt="Papel film"
+                />
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Papel film</h5>
+                  <p class="card-text"><strong>Medidas:</strong> 38 cm x 100 M - 38 cm x 300 m - 38 cm x 600 m - 45 cm x 600 m </p>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="col">
+              <div class="card h-100">
+                <img
+                  src="../../img/productos/Insumos/Polietireno.webp"
+                  class="card-img-top"
+                  alt="Rollo polietileno con burbujas"
+                />
+                <div class="card-body">
+                  <h5 class="card-title mb-4">Rollo polietileno con burbujas</h5>
+                  <p class="card-text"><strong>Medidas:</strong> 33 cm x 5m - 1 m x 30 m</p>
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
           </div>
         </div>
       </div>
@@ -318,36 +316,36 @@
         <h2 class="pieDePagina__titulo">Seguinos en nuestras redes</h2>
         <div class="pieDePagina__contenedorRedes">
           <a
-            class="pieDePagina__link"
-            href="https://www.instagram.com/amcdescartables/"
-            ><span
-              class="iconify"
-              data-icon="cib:instagram"
-              data-inline="false"
-              data-width="77"
-              data-height="50"
-            ></span
-          ></a>
+          class="pieDePagina__link"
+          href="https://www.instagram.com/amcdescartables/"
+          ><span
+            class="iconify"
+            data-icon="cib:instagram"
+            data-inline="false"
+            data-width="40"
+            data-height="40"
+          ></span
+        ></a>
 
-          <a class="pieDePagina__link" href="">
-            <span
-              class="iconify"
-              data-icon="feather:twitter"
-              data-inline="false"
-              data-width="50"
-              data-height="50"
-            ></span
-          ></a>
+        <a class="pieDePagina__link" href="">
+          <span
+            class="iconify"
+            data-icon="feather:twitter"
+            data-inline="false"
+            data-width="40"
+            data-height="40"
+          ></span
+        ></a>
 
-          <a class="pieDePagina__link" href="">
-            <span
-              class="iconify"
-              data-icon="cib:facebook"
-              data-inline="false"
-              data-width="50"
-              data-height="50"
-            ></span>
-          </a>
+        <a class="pieDePagina__link" href="">
+          <span
+            class="iconify"
+            data-icon="cib:facebook"
+            data-inline="false"
+            data-width="40"
+            data-height="40"
+          ></span>
+        </a>
         </div>
       </div>
     </footer>
