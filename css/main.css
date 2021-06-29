@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/*Configuraciones de estilos generales */
 /*!
  * Bootstrap v5.0.1 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -7920,10 +7919,12 @@ A {
     justify-content: space-between; }
   .productosDestacados__card {
     margin: 10px 0px; }
+  .productosDestacados__img {
+    height: 250px; }
   .catProductos img {
     margin-top: 25px;
-    padding: 5vw 8vw 15vw 8vw;
-    height: 200px; }
+    padding: 5vw 2vw 10vw 2vw;
+    height: 250px; }
   .clientes__grilla {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, auto); }
